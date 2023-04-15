@@ -2,7 +2,7 @@
 <html class="h-full bg-gray-100>
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>About</title>
   <script src="https://cdn.tailwindcss.com"></script> 
 </head>
 
@@ -141,7 +141,7 @@
 
   <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-      <p>Hello. Welcome to the <b>HOME</b> page</p>
+      <p>Hello. Welcome to the <b>ABOUT</b> page</p>
     </div>
   </main>
 </div>

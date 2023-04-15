@@ -2,7 +2,7 @@
 <html class="h-full bg-gray-100>
 <head>
   <meta charset="UTF-8">
-  <title>Home</title>
+  <title>Contact us</title>
   <script src="https://cdn.tailwindcss.com"></script> 
 </head>
 
@@ -96,7 +96,7 @@
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <a href="/" class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Dashboard</a>
 
-        <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
+        <a href="/" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Team</a>
 
         <a href="#" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Projects</a>
 
@@ -141,7 +141,7 @@
 
   <main>
     <div class="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
-      <p>Hello. Welcome to the <b>HOME</b> page</p>
+      <p>Hello. Welcome to the <b>CONTACT</b> page</p>
     </div>
   </main>
 </div>
