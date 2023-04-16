@@ -1,6 +1,6 @@
 <?php
 
-require 'functions.php';
+//require 'functions.php';
 
 function abort($code = 404){
   http_response_code($code);
