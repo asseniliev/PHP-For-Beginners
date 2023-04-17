@@ -5,13 +5,15 @@ require 'functions.php';
 
 require 'database.php';
 
+$config = require('config.php');
 
-$db = new Database();
-$posts = $db->query("select * from posts where id > 2")->fetchAll(PDO::FETCH_ASSOC);
+$db = new Database($config['database']);
 
-// foreach($posts as $post){
-//   echo "<li>" . $post['title'] . "</li >";
-// }
+$posts = $db->query("select * from posts")->fetchAll();
+
+foreach($posts as $post){
+  echo "<li>" . $post['title'] . "</li >";
+}
 
 //Visualize the result on the screen (dd() is defined in 'function.php')
-dd($posts);
+//dd($posts);
