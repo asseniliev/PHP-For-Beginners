@@ -14,13 +14,13 @@ class Database {
     ]);
   }
   
-  public function query($query)
+  public function query($query, $params = [])
    {
       //create an sql query to browse the database
       $statement = $this->connection->prepare($query);
 
       //execute the query
-      $statement->execute();
+      $statement->execute($params);
 
       //Fetch the result from the executed query
       return $statement;      
